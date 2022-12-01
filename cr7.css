@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(80, 80, 80);   
+    background-image:url('https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg');
+
+
+}
+.menu{
+   background-color: rgb(89, 0, 255);
+   width:"100%";
+   display:flex;
+   justify-content: space-between;
+}
+.game{
+    background-color: rgb(35, 0, 51);
+    width:350px;
+    height:500px;
+    border-radius: 20px;
+    position: relative;
+}
+h4{
+    color: white;
+}
+.game:hover{
+ opacity: 0.7;
+}
+.diretor{
+    display: flex;
+    justify-content:space-between ;
+    margin-top:10px;
+    flex-wrap:wrap
+}
